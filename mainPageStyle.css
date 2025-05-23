@@ -42,7 +42,7 @@ File to store the styling informating for the index.html page.
 }
 a:link{
     text-align: center;
-    color: lightblue;
+    color: white;
     background-color: transparent;
 }
 a:visited{
