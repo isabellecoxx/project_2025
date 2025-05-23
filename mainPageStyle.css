@@ -50,3 +50,12 @@ a:visited{
     color: powderblue;
     background-color: transparent;
 }
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.socialImg{
+    border-radius: 1.5em;
+}
