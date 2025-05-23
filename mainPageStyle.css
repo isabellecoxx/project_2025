@@ -1,0 +1,52 @@
+/*
+File to store the styling informating for the index.html page.
+*/
+
+.introParagraph{
+    text-align: center;
+    color: white;
+}
+.cuteFlower{
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+.headerText{
+    border-radius: 3.3em;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    background-color: thistle;
+    font-family: "Lucidia Handwriting", cursive;
+    padding: 0.2em;
+}
+.titleText{
+    border-radius: 3.3em;
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    background-color: powderblue;
+    font-family: "Lucidia Handwriting", cursive;
+    padding: 0.2em;
+
+}
+.flowerImg{
+    border-radius: 1.5em;
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+.titleAndLinks{
+    display: block;
+    text-align: center;
+}
+a:link{
+    text-align: center;
+    color: lightblue;
+    background-color: transparent;
+}
+a:visited{
+    text-align: center;
+    color: powderblue;
+    background-color: transparent;
+}
