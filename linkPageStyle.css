@@ -47,3 +47,10 @@ File to store the styling informating for the classes.html, projects.html, and m
     align-items: center;
     
 }
+.links{
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    font-size: 1.1em;
+}
