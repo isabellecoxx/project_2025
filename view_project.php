@@ -2,15 +2,19 @@
 
     include("include/init.php");
 
-    debugOutput($_REQUEST);
+    //debugOutput($_REQUEST);
     
     $project = getProject($_REQUEST["projectId"]);
-    debugOutput($project);
+    //debugOutput($project);
     
     $title = $project['title'];
     $href = $project['href'];
+    $content = $project['content'];
 
-    debugOutput($title);
+    $img1 = $project['img1'];
+    $img2 = $project['img2'];
+
+    //debugOutput($title);
 
     echo "
 
@@ -24,8 +28,16 @@
 
         <body style='background-color:pink;'>
             <h1 class='titleText'>$title</h1>
+            <br>
+            <br>
             <div class='introParagraph'>
-                Insert description here depending on project id...
+                $content
+            </div>
+            <br>
+            <br>
+            <div class='row'>
+                <img src=$img1 alt='polar bear game' width='450' height='300' class='matchingImg'>
+                <img src=$img2 alt='vs game' width='450' height='300' class='matchingImg'>
             </div>
         </body>
     ";
