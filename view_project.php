@@ -14,20 +14,18 @@
 
     echo "
 
-    <!DOCTYPE html>
+        <!DOCTYPE html>
 
-    <head>
-        <meta charset='utf-8' name='viewport' content='width=device-width'>
-        <title>$title</title>
-        <link rel='stylesheet' href='mainPageStyle.css'>
-    </head>
+        <head>
+            <meta charset='utf-8' name='viewport' content='width=device-width'>
+            <title>$title</title>
+            <link rel='stylesheet' href='mainPageStyle.css'>
+        </head>
 
-    <body style='background-color:pink;'>
-        <h1 class='titleText'>$title</h1>
-        <div class='introParagraph'>
-            Insert description here depending on project id...
-        </div>
-    </body>
-
-    
+        <body style='background-color:pink;'>
+            <h1 class='titleText'>$title</h1>
+            <div class='introParagraph'>
+                Insert description here depending on project id...
+            </div>
+        </body>
     ";
