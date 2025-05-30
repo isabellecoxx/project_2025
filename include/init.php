@@ -10,4 +10,6 @@
     include('common_components.php');
     include('posts.php');
     include('projects.php');
+    include('my_classes.php');
+    include('my_form.php');
     include('helper_functions.php');

@@ -47,7 +47,7 @@ a:link{
 }
 a:visited{
     text-align: center;
-    color: powderblue;
+    color: dimgray;
     background-color: transparent;
 }
 .row{
@@ -58,4 +58,14 @@ a:visited{
 }
 .socialImg{
     border-radius: 1.5em;
+}
+form { 
+    margin: 0 auto; 
+    width:250px;
+    color: white;
+}
+.classParagraph {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
 }

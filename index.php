@@ -3,6 +3,14 @@
     include("include/init.php");
 
     $posts = getPosts();
+    $questions = getQuestions();
+
+    if(isset($_REQUEST['userName']) && isset($_REQUEST['userQuestion'])){
+        insertQuestion($_REQUEST['userName'], $_REQUEST['userQuestion']);
+        header("Location: form_practice.php");
+        exit;
+    }
+    
 ?>
 
 <!DOCTYPE html>
@@ -52,6 +60,33 @@
             <p></p>
         
         <?php endforeach; ?>
+
+        <br>
+        <span>
+            <p class="introParagraph">Got any questions for me?</p>
+        </span>
+
+
+        <div class="row">
+            <form action="" method="POST" style="text-align: center;">
+                Name:
+                <input type="text" name = "userName"> 
+                <br>
+                <br>
+            Question:
+                <input type="text" name = "userQuestion"> 
+                <br>
+                <br>
+                <input type="submit">
+            </form>
+        </div>
+        <br>
+        <br>
+        <a href="display_questions.php" target="_blank" class="titleAndLinks">
+                Click here to view previously asked questions.
+        </a>
+
+
 
 
         <!-- Past Classes Information/Link -->
