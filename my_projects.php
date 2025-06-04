@@ -15,7 +15,7 @@
         <div class="row">
             <img src="matching_game.png" alt="matching game" width="450" height="300" class="matchingImg">
 
-            <a href="view_project.php?projectId=1" target="_blank" class="links">
+            <a href="view_project.php?projectId=1" target="_self" class="links">
                 <span class="bodyText">Matching Game - Object Oriented Software Design</span>
             </a>
 
@@ -30,7 +30,7 @@
         <div class="row">
             <img src="game1.png" alt="polar bear game" width="450" height="300" class="matchingImg">
 
-            <a href="view_project.php?projectId=2" target="_blank" class="links">
+            <a href="view_project.php?projectId=2" target="_self" class="links">
                 <span class="bodyText">Other Games - Personal Projects</span>
             </a>
 

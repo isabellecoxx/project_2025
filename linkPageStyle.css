@@ -54,3 +54,9 @@ File to store the styling informating for the classes.html, projects.html, and m
     background-color: transparent;
     font-size: 1.1em;
 }
+.hiddenJsButton{
+    display: none;
+}
+.visibleJsButton{
+    display: block;
+}

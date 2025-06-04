@@ -32,11 +32,11 @@
         <body style='background-color:pink;'>
             <br>
             <div class='classParagraph'>
-                $name asked:
+                ".htmlspecialchars($name)." asked:
             </div>
             <br>
             <div class='classParagraph'>
-                $q
+                ".htmlspecialchars($q)."
             </div>
             <br>
         ";

@@ -7,7 +7,9 @@
 
     if(isset($_REQUEST['userName']) && isset($_REQUEST['userQuestion'])){
         insertQuestion($_REQUEST['userName'], $_REQUEST['userQuestion']);
-        header("Location: form_practice.php");
+
+        // header() to control what page submit
+        header("Location: index.php#moreQuestions");
         exit;
     }
     
@@ -53,7 +55,7 @@
                 </div>
             </h3>
 
-            <a href="<?php echo $post['href']; ?>" target="_blank" class="titleAndLinks">
+            <a href="<?php echo $post['href']; ?>" target="_self" class="titleAndLinks">
                 Click here to view <?php echo strtolower($post['title']); ?>.
             </a>
 
@@ -82,7 +84,7 @@
         </div>
         <br>
         <br>
-        <a href="display_questions.php" target="_blank" class="titleAndLinks">
+        <a href="display_questions.php" target="_self" class="titleAndLinks" id="moreQuestions">
                 Click here to view previously asked questions.
         </a>
 

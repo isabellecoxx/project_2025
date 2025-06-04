@@ -17,15 +17,15 @@
             Computer Science
         </h3>
 
-        <a href="view_classes.php?classId=3" target="_blank" class="links">
+        <a href="view_classes.php?classId=3" target="_self" class="links">
             <div class="bodyText">Data Structures</div>
         </a>   
         <p></p>
-        <a href="view_classes.php?classId=4" target="_blank" class="links">
+        <a href="view_classes.php?classId=4" target="_self" class="links">
             <div class="bodyText">Object Oriented Software Design</div>
         </a> 
         <p></p>
-        <a href="view_classes.php?classId=5" target="_blank" class="links">
+        <a href="view_classes.php?classId=5" target="_self" class="links">
             <div class="bodyText">Principles of Computing Systems</div>
         </a> 
         <p></p>
@@ -36,15 +36,15 @@
             Mathematics
         </h3>
 
-        <a href="view_classes.php?classId=6" target="_blank" class="links">
+        <a href="view_classes.php?classId=6" target="_self" class="links">
             <div class="bodyText">Discrete Math</div>
         </a> 
         <p></p>
-        <a href="view_classes.php?classId=7" target="_blank" class="links">
+        <a href="view_classes.php?classId=7" target="_self" class="links">
             <div class="bodyText">Calculus One</div>
         </a> 
         <p></p>
-        <a href="view_classes.php?classId=8" target="_blank" class="links">
+        <a href="view_classes.php?classId=8" target="_self" class="links">
             <div class="bodyText">Calculus Two</div>
         </a> 
         <p></p>
@@ -53,11 +53,11 @@
         <h3 class="headerText">
             Other Sciences
         </h3>
-        <a href="view_classes.php?classId=9" target="_blank" class="links">
+        <a href="view_classes.php?classId=9" target="_self" class="links">
             <div class="bodyText">Atmospheric Science</div>
         </a> 
         <p></p>
-        <a href="view_classes.php?classId=10" target="_blank" class="links">
+        <a href="view_classes.php?classId=10" target="_self" class="links">
             <div class="bodyText">Earth Science / Geology</div>
         </a> 
         <p></p>

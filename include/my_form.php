@@ -24,7 +24,10 @@
     function insertQuestion($userName, $userComment){
         dbQuery("
         INSERT INTO questions(content, name)
-        VALUES('$userComment','$userName')
-        ");
+        VALUES(:userComment, :userName)
+        ", [
+            'userName' => $userName,
+            'userComment' => $userComment
+        ]);
     }
     
